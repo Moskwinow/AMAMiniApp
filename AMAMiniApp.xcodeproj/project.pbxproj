@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1348D4D66D6F13C350AF0B53 /* libPods-AMAMiniApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A57C78B01DEC26B4EA640D27 /* libPods-AMAMiniApp.a */; };
 		B4A87D47271834910095670D /* AMAMiniApp.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A87D45271834910095670D /* AMAMiniApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4A87E2C27184A610095670D /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A87E1227184A610095670D /* ReviewModel.swift */; };
 		B4A87E2D27184A610095670D /* DetailTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A87E1327184A610095670D /* DetailTypeModel.swift */; };
@@ -38,18 +37,20 @@
 		B4A87E5427184C5E0095670D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4A87E5327184C5E0095670D /* GoogleService-Info.plist */; };
 		B4A87E732718551D0095670D /* libSnapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E722718551D0095670D /* libSnapKit.a */; };
 		B4A87E75271855260095670D /* libKingfisher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E74271855260095670D /* libKingfisher.a */; };
-		B4A87E772718552C0095670D /* libFirebaseAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E762718552C0095670D /* libFirebaseAuth.a */; };
 		B4A87E79271855A10095670D /* libFirebaseCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E78271855A10095670D /* libFirebaseCore.a */; };
 		B4A87E7B271855A60095670D /* libFirebaseCoreDiagnostics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E7A271855A60095670D /* libFirebaseCoreDiagnostics.a */; };
 		B4A87E7D271855AC0095670D /* libGoogleUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E7C271855AC0095670D /* libGoogleUtilities.a */; };
 		B4A87E7F271855B20095670D /* libGTMSessionFetcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E7E271855B20095670D /* libGTMSessionFetcher.a */; };
 		B4A87E81271855BB0095670D /* libnanopb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E80271855BB0095670D /* libnanopb.a */; };
 		B4A87E83271855C50095670D /* libPromisesObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E82271855C50095670D /* libPromisesObjC.a */; };
+		B4A87EA327185F9C0095670D /* libFirebaseAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87EA227185F9C0095670D /* libFirebaseAuth.a */; };
+		B4A87EA527185FBA0095670D /* AMAMiniApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87D42271834910095670D /* AMAMiniApp.framework */; };
+		B688CC1B115F096880EA3137 /* libPods-AMAMiniApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A45100A8FDA356BA585B8235 /* libPods-AMAMiniApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1EFF472AD8A60086D90BC641 /* Pods-AMAMiniApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMAMiniApp.release.xcconfig"; path = "Target Support Files/Pods-AMAMiniApp/Pods-AMAMiniApp.release.xcconfig"; sourceTree = "<group>"; };
-		A57C78B01DEC26B4EA640D27 /* libPods-AMAMiniApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMAMiniApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6656E90256A7DCFFA5D4A719 /* Pods-AMAMiniApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMAMiniApp.debug.xcconfig"; path = "Target Support Files/Pods-AMAMiniApp/Pods-AMAMiniApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A45100A8FDA356BA585B8235 /* libPods-AMAMiniApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMAMiniApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A87D42271834910095670D /* AMAMiniApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMAMiniApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A87D45271834910095670D /* AMAMiniApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMAMiniApp.h; sourceTree = "<group>"; };
 		B4A87D46271834910095670D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,14 +83,14 @@
 		B4A87E5327184C5E0095670D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B4A87E722718551D0095670D /* libSnapKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSnapKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A87E74271855260095670D /* libKingfisher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libKingfisher.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4A87E762718552C0095670D /* libFirebaseAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFirebaseAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A87E78271855A10095670D /* libFirebaseCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFirebaseCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A87E7A271855A60095670D /* libFirebaseCoreDiagnostics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFirebaseCoreDiagnostics.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A87E7C271855AC0095670D /* libGoogleUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGoogleUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A87E7E271855B20095670D /* libGTMSessionFetcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGTMSessionFetcher.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A87E80271855BB0095670D /* libnanopb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libnanopb.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A87E82271855C50095670D /* libPromisesObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libPromisesObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEDEBBB503506801403B5B48 /* Pods-AMAMiniApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMAMiniApp.debug.xcconfig"; path = "Target Support Files/Pods-AMAMiniApp/Pods-AMAMiniApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B4A87EA227185F9C0095670D /* libFirebaseAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFirebaseAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C1CF4EF6807346FA821285 /* Pods-AMAMiniApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMAMiniApp.release.xcconfig"; path = "Target Support Files/Pods-AMAMiniApp/Pods-AMAMiniApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4A87EA327185F9C0095670D /* libFirebaseAuth.a in Frameworks */,
+				B4A87EA527185FBA0095670D /* AMAMiniApp.framework in Frameworks */,
 				B4A87E83271855C50095670D /* libPromisesObjC.a in Frameworks */,
 				B4A87E81271855BB0095670D /* libnanopb.a in Frameworks */,
 				B4A87E7F271855B20095670D /* libGTMSessionFetcher.a in Frameworks */,
@@ -105,8 +108,7 @@
 				B4A87E79271855A10095670D /* libFirebaseCore.a in Frameworks */,
 				B4A87E732718551D0095670D /* libSnapKit.a in Frameworks */,
 				B4A87E75271855260095670D /* libKingfisher.a in Frameworks */,
-				B4A87E772718552C0095670D /* libFirebaseAuth.a in Frameworks */,
-				1348D4D66D6F13C350AF0B53 /* libPods-AMAMiniApp.a in Frameworks */,
+				B688CC1B115F096880EA3137 /* libPods-AMAMiniApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,8 +118,8 @@
 		4A11EF33A08AC9B9F285551F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FEDEBBB503506801403B5B48 /* Pods-AMAMiniApp.debug.xcconfig */,
-				1EFF472AD8A60086D90BC641 /* Pods-AMAMiniApp.release.xcconfig */,
+				6656E90256A7DCFFA5D4A719 /* Pods-AMAMiniApp.debug.xcconfig */,
+				B4C1CF4EF6807346FA821285 /* Pods-AMAMiniApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -275,16 +277,16 @@
 		E0ECB7CB4ED0C965F4056046 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B4A87EA227185F9C0095670D /* libFirebaseAuth.a */,
 				B4A87E82271855C50095670D /* libPromisesObjC.a */,
 				B4A87E80271855BB0095670D /* libnanopb.a */,
 				B4A87E7E271855B20095670D /* libGTMSessionFetcher.a */,
 				B4A87E7C271855AC0095670D /* libGoogleUtilities.a */,
 				B4A87E7A271855A60095670D /* libFirebaseCoreDiagnostics.a */,
 				B4A87E78271855A10095670D /* libFirebaseCore.a */,
-				B4A87E762718552C0095670D /* libFirebaseAuth.a */,
 				B4A87E74271855260095670D /* libKingfisher.a */,
 				B4A87E722718551D0095670D /* libSnapKit.a */,
-				A57C78B01DEC26B4EA640D27 /* libPods-AMAMiniApp.a */,
+				A45100A8FDA356BA585B8235 /* libPods-AMAMiniApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -307,7 +309,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4A87D4A271834910095670D /* Build configuration list for PBXNativeTarget "AMAMiniApp" */;
 			buildPhases = (
-				9F26954125441AF9C690AE77 /* [CP] Check Pods Manifest.lock */,
+				12BBA784B9541CDD15F25F58 /* [CP] Check Pods Manifest.lock */,
 				B4A87D3D271834910095670D /* Headers */,
 				B4A87D3E271834910095670D /* Sources */,
 				B4A87D3F271834910095670D /* Frameworks */,
@@ -365,7 +367,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9F26954125441AF9C690AE77 /* [CP] Check Pods Manifest.lock */ = {
+		12BBA784B9541CDD15F25F58 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -550,7 +552,7 @@
 		};
 		B4A87D4B271834910095670D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEDEBBB503506801403B5B48 /* Pods-AMAMiniApp.debug.xcconfig */;
+			baseConfigurationReference = 6656E90256A7DCFFA5D4A719 /* Pods-AMAMiniApp.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -576,7 +578,7 @@
 		};
 		B4A87D4C271834910095670D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EFF472AD8A60086D90BC641 /* Pods-AMAMiniApp.release.xcconfig */;
+			baseConfigurationReference = B4C1CF4EF6807346FA821285 /* Pods-AMAMiniApp.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

@@ -9,6 +9,6 @@ target 'AMAMiniApp' do
   # Pods for AMAMiniApp
 	pod 'SnapKit'
 	pod 'Firebase/Auth'
-  pod 'Kingfisher'
+ 	pod 'Kingfisher'
 
 end

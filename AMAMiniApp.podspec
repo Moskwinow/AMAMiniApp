@@ -15,8 +15,6 @@ spec.author       = { "M.Vechirko" => "maksym.vechirko@axiomc.com" }
 spec.ios.deployment_target = "9"
 
 spec.source        = { :git => "https://github.com/Moskwinow/AMAMiniApp.git", :tag => "#{spec.version}" }
-spec.source_files  = "AMAMiniApp/**/*.{h,m,swift}"
-
-spec.frameworks = "UIKit", "Firebase", "SnapKit", "Kingfisher"
+spec.source_files  = "AMAMiniApp/**/*.{h,m}"
 
 end
