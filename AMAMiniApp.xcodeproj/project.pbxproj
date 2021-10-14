@@ -44,7 +44,6 @@
 		B4A87E81271855BB0095670D /* libnanopb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E80271855BB0095670D /* libnanopb.a */; };
 		B4A87E83271855C50095670D /* libPromisesObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E82271855C50095670D /* libPromisesObjC.a */; };
 		B4A87EA327185F9C0095670D /* libFirebaseAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87EA227185F9C0095670D /* libFirebaseAuth.a */; };
-		B4A87EA527185FBA0095670D /* AMAMiniApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87D42271834910095670D /* AMAMiniApp.framework */; };
 		B688CC1B115F096880EA3137 /* libPods-AMAMiniApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A45100A8FDA356BA585B8235 /* libPods-AMAMiniApp.a */; };
 /* End PBXBuildFile section */
 
@@ -99,7 +98,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4A87EA327185F9C0095670D /* libFirebaseAuth.a in Frameworks */,
-				B4A87EA527185FBA0095670D /* AMAMiniApp.framework in Frameworks */,
 				B4A87E83271855C50095670D /* libPromisesObjC.a in Frameworks */,
 				B4A87E81271855BB0095670D /* libnanopb.a in Frameworks */,
 				B4A87E7F271855B20095670D /* libGTMSessionFetcher.a in Frameworks */,
