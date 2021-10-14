@@ -8,7 +8,7 @@ spec.description  = <<-DESC
 This CocoaPods library helps you perform calculation.
 DESC
 
-spec.homepage     = "https://github.com/jeantimex/SwiftyLib"
+spec.homepage     = "https://cocoapods.org/pods/AMAMiniApp"
 spec.license      = { :type => "MIT", :file => "LICENSE" }
 spec.author       = { "M.Vechirko" => "maksym.vechirko@axiomc.com" }
 
