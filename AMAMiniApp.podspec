@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "AMAMiniApp"
-spec.version      = "0.0.5"
+spec.version      = "0.0.6"
 spec.summary      = "A CocoaPods library written in Swift"
 
 spec.description  = <<-DESC
@@ -16,4 +16,5 @@ spec.ios.deployment_target = "9"
 
 spec.source        = { :git => "https://github.com/Moskwinow/AMAMiniApp.git", :tag => "#{spec.version}" }
 spec.source_files  = "AMAMiniApp/**/*.{h,m, swift}"
+spec.resources = "AMAMiniApp/Resources"
 end
