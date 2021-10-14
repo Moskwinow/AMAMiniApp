@@ -36,6 +36,15 @@
 		B4A87E5027184A670095670D /* BrandTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A87E4827184A670095670D /* BrandTextField.swift */; };
 		B4A87E5127184A670095670D /* BrandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A87E4927184A670095670D /* BrandButton.swift */; };
 		B4A87E5427184C5E0095670D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4A87E5327184C5E0095670D /* GoogleService-Info.plist */; };
+		B4A87E732718551D0095670D /* libSnapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E722718551D0095670D /* libSnapKit.a */; };
+		B4A87E75271855260095670D /* libKingfisher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E74271855260095670D /* libKingfisher.a */; };
+		B4A87E772718552C0095670D /* libFirebaseAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E762718552C0095670D /* libFirebaseAuth.a */; };
+		B4A87E79271855A10095670D /* libFirebaseCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E78271855A10095670D /* libFirebaseCore.a */; };
+		B4A87E7B271855A60095670D /* libFirebaseCoreDiagnostics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E7A271855A60095670D /* libFirebaseCoreDiagnostics.a */; };
+		B4A87E7D271855AC0095670D /* libGoogleUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E7C271855AC0095670D /* libGoogleUtilities.a */; };
+		B4A87E7F271855B20095670D /* libGTMSessionFetcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E7E271855B20095670D /* libGTMSessionFetcher.a */; };
+		B4A87E81271855BB0095670D /* libnanopb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E80271855BB0095670D /* libnanopb.a */; };
+		B4A87E83271855C50095670D /* libPromisesObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A87E82271855C50095670D /* libPromisesObjC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +80,15 @@
 		B4A87E4827184A670095670D /* BrandTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandTextField.swift; sourceTree = "<group>"; };
 		B4A87E4927184A670095670D /* BrandButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandButton.swift; sourceTree = "<group>"; };
 		B4A87E5327184C5E0095670D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B4A87E722718551D0095670D /* libSnapKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSnapKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A87E74271855260095670D /* libKingfisher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libKingfisher.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A87E762718552C0095670D /* libFirebaseAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFirebaseAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A87E78271855A10095670D /* libFirebaseCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFirebaseCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A87E7A271855A60095670D /* libFirebaseCoreDiagnostics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFirebaseCoreDiagnostics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A87E7C271855AC0095670D /* libGoogleUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGoogleUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A87E7E271855B20095670D /* libGTMSessionFetcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGTMSessionFetcher.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A87E80271855BB0095670D /* libnanopb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libnanopb.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A87E82271855C50095670D /* libPromisesObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libPromisesObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDEBBB503506801403B5B48 /* Pods-AMAMiniApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMAMiniApp.debug.xcconfig"; path = "Target Support Files/Pods-AMAMiniApp/Pods-AMAMiniApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +97,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4A87E83271855C50095670D /* libPromisesObjC.a in Frameworks */,
+				B4A87E81271855BB0095670D /* libnanopb.a in Frameworks */,
+				B4A87E7F271855B20095670D /* libGTMSessionFetcher.a in Frameworks */,
+				B4A87E7D271855AC0095670D /* libGoogleUtilities.a in Frameworks */,
+				B4A87E7B271855A60095670D /* libFirebaseCoreDiagnostics.a in Frameworks */,
+				B4A87E79271855A10095670D /* libFirebaseCore.a in Frameworks */,
+				B4A87E732718551D0095670D /* libSnapKit.a in Frameworks */,
+				B4A87E75271855260095670D /* libKingfisher.a in Frameworks */,
+				B4A87E772718552C0095670D /* libFirebaseAuth.a in Frameworks */,
 				1348D4D66D6F13C350AF0B53 /* libPods-AMAMiniApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +275,15 @@
 		E0ECB7CB4ED0C965F4056046 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B4A87E82271855C50095670D /* libPromisesObjC.a */,
+				B4A87E80271855BB0095670D /* libnanopb.a */,
+				B4A87E7E271855B20095670D /* libGTMSessionFetcher.a */,
+				B4A87E7C271855AC0095670D /* libGoogleUtilities.a */,
+				B4A87E7A271855A60095670D /* libFirebaseCoreDiagnostics.a */,
+				B4A87E78271855A10095670D /* libFirebaseCore.a */,
+				B4A87E762718552C0095670D /* libFirebaseAuth.a */,
+				B4A87E74271855260095670D /* libKingfisher.a */,
+				B4A87E722718551D0095670D /* libSnapKit.a */,
 				A57C78B01DEC26B4EA640D27 /* libPods-AMAMiniApp.a */,
 			);
 			name = Frameworks;
