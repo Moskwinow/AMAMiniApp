@@ -1,0 +1,6 @@
+module Pods_AMAMiniApp {
+  umbrella header "Pods-AMAMiniApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
