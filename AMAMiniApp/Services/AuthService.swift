@@ -7,12 +7,12 @@
 
 import Firebase
 
-enum AuthMethod {
+public enum AuthMethod {
     case signIn
     case signUp
 }
 
-protocol AuthService {
+public protocol AuthService {
     func auth(_ method: AuthMethod, with email: String, and password: String, completion: @escaping(Result<String, Error>) -> ())
 }
 
@@ -22,7 +22,7 @@ public final class AuthServiceManager: AuthService {
         FirebaseApp.configure()
     }
     
-    func auth(_ method: AuthMethod, with email: String, and password: String, completion: @escaping (Result<String, Error>) -> ()) {
+    public func auth(_ method: AuthMethod, with email: String, and password: String, completion: @escaping (Result<String, Error>) -> ()) {
         switch method {
         case .signIn:
             signIn(email: email, password: password, completion: completion)
@@ -31,7 +31,7 @@ public final class AuthServiceManager: AuthService {
         }
     }
     
-    private func signUp(email: String, password: String, completion: @escaping (Result<String, Error>) -> ()) {
+    public func signUp(email: String, password: String, completion: @escaping (Result<String, Error>) -> ()) {
         Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
             if error == nil {
                 completion(.success("User: \(email.uppercased()) successfully created now you can sign in "))
@@ -41,7 +41,7 @@ public final class AuthServiceManager: AuthService {
         }
     }
     
-    private func signIn(email: String, password: String, completion: @escaping (Result<String, Error>) -> ()) {
+    public func signIn(email: String, password: String, completion: @escaping (Result<String, Error>) -> ()) {
         Auth.auth().signIn(withEmail: email, password: password) { (authResult, error) in
             if error == nil {
                 completion(.success(""))
