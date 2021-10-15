@@ -143,33 +143,27 @@
 		B4A87D44271834910095670D /* AMAMiniApp */ = {
 			isa = PBXGroup;
 			children = (
-				B4A883C32718732E0095670D /* Resources */,
-				B4A87D45271834910095670D /* AMAMiniApp.h */,
-				B4A87D46271834910095670D /* Info.plist */,
-				B4A87E5327184C5E0095670D /* GoogleService-Info.plist */,
-			);
-			path = AMAMiniApp;
-			sourceTree = "<group>";
-		};
-		B4A87E1127184A610095670D /* Models */ = {
-			isa = PBXGroup;
-			children = (
+				B4A87E4027184A670095670D /* NetworkService.swift */,
+				B4A87E4127184A670095670D /* AuthService.swift */,
+				B4A87E4227184A670095670D /* DefaultService.swift */,
+				B4A87E4527184A670095670D /* DetailCell.swift */,
+				B4A87E4627184A670095670D /* BrandTableView.swift */,
+				B4A87E4727184A670095670D /* BrandCell.swift */,
+				B4A87E4827184A670095670D /* BrandTextField.swift */,
+				B4A87E4927184A670095670D /* BrandButton.swift */,
+				B4A87E1827184A610095670D /* UITableView+Ext.swift */,
+				B4A87E1927184A610095670D /* UIView+Ext.swift */,
 				B4A87E1227184A610095670D /* ReviewModel.swift */,
 				B4A87E1327184A610095670D /* DetailTypeModel.swift */,
 				B4A87E1427184A610095670D /* Model.swift */,
 				B4A87E1527184A610095670D /* TypeModel.swift */,
 				B4A87E1627184A610095670D /* DetailModel.swift */,
+				B4A87E1A27184A610095670D /* Modules */,
+				B4A87D45271834910095670D /* AMAMiniApp.h */,
+				B4A87D46271834910095670D /* Info.plist */,
+				B4A87E5327184C5E0095670D /* GoogleService-Info.plist */,
 			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		B4A87E1727184A610095670D /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				B4A87E1827184A610095670D /* UITableView+Ext.swift */,
-				B4A87E1927184A610095670D /* UIView+Ext.swift */,
-			);
-			path = Extensions;
+			path = AMAMiniApp;
 			sourceTree = "<group>";
 		};
 		B4A87E1A27184A610095670D /* Modules */ = {
@@ -236,48 +230,6 @@
 				B4A87E2B27184A610095670D /* LoginPresenter.swift */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		B4A87E3F27184A670095670D /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				B4A87E4027184A670095670D /* NetworkService.swift */,
-				B4A87E4127184A670095670D /* AuthService.swift */,
-				B4A87E4227184A670095670D /* DefaultService.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		B4A87E4327184A670095670D /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				B4A87E4427184A670095670D /* TableView */,
-				B4A87E4827184A670095670D /* BrandTextField.swift */,
-				B4A87E4927184A670095670D /* BrandButton.swift */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		B4A87E4427184A670095670D /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				B4A87E4527184A670095670D /* DetailCell.swift */,
-				B4A87E4627184A670095670D /* BrandTableView.swift */,
-				B4A87E4727184A670095670D /* BrandCell.swift */,
-			);
-			path = TableView;
-			sourceTree = "<group>";
-		};
-		B4A883C32718732E0095670D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B4A87E3F27184A670095670D /* Services */,
-				B4A87E4327184A670095670D /* UI */,
-				B4A87E1727184A610095670D /* Extensions */,
-				B4A87E1127184A610095670D /* Models */,
-				B4A87E1A27184A610095670D /* Modules */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		E0ECB7CB4ED0C965F4056046 /* Frameworks */ = {
